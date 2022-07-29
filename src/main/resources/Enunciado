@@ -1,0 +1,24 @@
+Enunciado
+        Crie um projeto Web para cadastro e listagem de livros.
+
+        1 - Crie um projeto Web. Java Enterprise.
+
+        2 - Crie uma classe Livro, com atributos nome e autor.
+
+        3 - Crie uma classe DAO, com um banco de dados fictício para armazenar os livros, pode ser uma lista. Essa classe de ter um método para salvar um livro e listar os livros.
+
+        4 - Crie uma classe BusinessObject para armazenar as regras de negócio (um livro não pode ser cadastrado com nome vazio). Essa classe também deve chamar metodos de persistência da classe DAO.
+
+        5 - Crie uma LivroServlet, para cadastrar e listar Livros. Essa classe deve chamar a classe BusinessObject.
+
+        6 - Crie as paginas jsp's, para cadastro e listagem dos livros.
+
+        7 - No final, coloque o link do seu projeto no github :)
+
+        BONUS OPCIONAL:
+
+        Aplique CDI e Injete a classe BusinnesObject e a classe DAO. A injeção de dependência pode ser feita via atributo, construtor ou via setter (como você achar melhor).
+
+        Além da listagem, pense e implemente os métodos para deletar e alterar um livro (assim o CRUD ficara completo. O que é CRUD? https://en.wikipedia.org/wiki/Create,_read,_update_and_delete).
+
+        Projeto de exemplo: https://github.com/andersonpiottoleite/PrimeiroProjetoWeb.git
